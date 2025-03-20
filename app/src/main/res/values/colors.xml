@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Default color`s -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Light Themes -->
+    <color name="light_pink">#FFD1DC</color>
+    <color name="bubble_gum">#FFC1CC</color>
+    <color name="coral">#FFBCAD</color>
+    <color name="thistle">#D8BFD8</color>
+    <color name="gray">#E8E8E8</color>
+    <color name="html_pink">#ffc0cb</color>
+    <color name="gradient_pink_in_white_1">#dfcade</color>
+    <color name="gradient_pink_in_white_2">#e5d4e5</color>
+    <color name="gradient_pink_in_white_3">#fff0f5</color>
+    <color name="pale_chestnut">#ddadaf</color>
+
+    <!-- Dark Themes -->
+
+    <color name="chestnut">#776368</color>
+    <color name="reddish_brown">#755a67</color>
+    <color name="pale_pinkish_purple">#996666</color>
+    <color name="dark_chestnut">#986960</color>
+    <color name="gradient_chestnut_in_white_1">#8d7b7f</color>
+    <color name="gradient_chestnut_in_white_2">#a39498</color>
+    <color name="gradient_chestnut_in_white_3">#e7e3e4</color>
+    <color name="gradient_chestnut_in_black_1">#9a7676</color>
+    <color name="gradient_chestnut_in_black_2">#795d5d</color>
+    <color name="gradient_chestnut_in_black_3">#5a4646</color>
+    <color name="gradient_chestnut_in_black_4">#3d3030</color>
+    <color name="maybe_background">#bc8f8f</color>
+
+
+
 </resources>

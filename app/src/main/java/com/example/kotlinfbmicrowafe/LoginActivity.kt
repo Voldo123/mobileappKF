@@ -3,21 +3,18 @@ package com.example.kotlinfbmicrowafe
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.kotlinfbmicrowafe.databinding.ActivityMainBinding
+import com.example.kotlinfbmicrowafe.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 
-class MainActivity : AppCompatActivity() { // наследуем AppCompatActivity
-    private lateinit var binding: ActivityMainBinding
+class LoginActivity : AppCompatActivity() { // наследуем AppCompatActivity
+    private lateinit var binding: ActivityLoginBinding
     val auth = FirebaseAuth.getInstance()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityLoginBinding.inflate(layoutInflater)
         val view = binding.root
 
         setContentView(view)
@@ -42,7 +39,7 @@ class MainActivity : AppCompatActivity() { // наследуем AppCompatActivi
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     Log.d("FirebaseAuth", "Вход успешен")
-                    startActivity(Intent(this, MainActivity::class.java))
+                    startActivity(Intent(this, LoginActivity::class.java))
                     finish()
                 } else {
                     Log.e("FirebaseAuth", "Ошибка входа: ${task.exception?.message}")

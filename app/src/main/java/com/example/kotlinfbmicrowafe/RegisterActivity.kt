@@ -37,7 +37,7 @@ class RegisterActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     Log.d("FirebaseAuth", "Регистрация успешна")
                     Toast.makeText(this, "Регистрация успешна!", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this, MainActivity::class.java))
+                    startActivity(Intent(this, LoginActivity::class.java))
                     finish()
                 } else {
                     Log.e("FirebaseAuth", "Ошибка регистрации: ${task.exception?.message}")
