@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "875532703572",
+    "firebase_url": "https://kotlinprogrammer-7f17b-default-rtdb.firebaseio.com",
+    "project_id": "kotlinprogrammer-7f17b",
+    "storage_bucket": "kotlinprogrammer-7f17b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875532703572:android:eec141793cefae38d1dac1",
+        "android_client_info": {
+          "package_name": "com.example.kotlinfbmicrowafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmJyLxUSzCBmU5TDQaC8G3dS5VAq7B0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
